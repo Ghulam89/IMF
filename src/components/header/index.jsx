@@ -39,9 +39,11 @@ const Header = () => {
           />
          <h2 className="  m-0 tw-font-poppins  tw-font-semibold tw-text-[#054776]">IMF</h2>
         </div>
+        <div>
 
+        </div>
         <ul className="lg:tw-flex tw-hidden tw-items-center tw-gap-8 tw-font-[Poppins]">
-        <li>
+        {/* <li>
             <Link
               to={"/"}
               onClick={() => handleNavigate("/", "aboutSection")}
@@ -49,11 +51,11 @@ const Header = () => {
             >
               WHITE PAPER
             </Link>
-          </li>
+          </li> */}
           <li>
             <Link
               to={"/tasks"}
-              onClick={() => handleNavigate("/", "taskSection")}
+              onClick={() => setOpen(false)}
               className="tw-text-[#054776] tw-font-bold"
             >
               TASKS
@@ -62,7 +64,7 @@ const Header = () => {
           <li>
             <Link
               to={"/faqs"}
-              onClick={() => handleNavigate("/", "tokenSection")}
+              onClick={() => setOpen(false)}
               className="tw-text-[#054776] tw-font-bold"
             >
               FAQ
@@ -104,7 +106,7 @@ const Header = () => {
           </div>
 
           <ul className="tw-p-0 tw-relative tw-px-9 tw-pt-3 tw-border-t">
-          <li>
+          {/* <li>
             <Link
               to={"/"}
               onClick={() => handleNavigate("/", "homeSection")}
@@ -112,11 +114,11 @@ const Header = () => {
             >
               WHITE PAPER
             </Link>
-          </li>
+          </li> */}
           <li>
             <Link
               to={"/tasks"}
-              onClick={() => handleNavigate("/", "aboutSection")}
+              onClick={() => setOpen(false)}
               className="tw-text-[#054776] tw-font-bold"
             >
               TASKS
@@ -125,7 +127,7 @@ const Header = () => {
           <li>
             <Link
               to={"/faqs"}
-              onClick={() => handleNavigate("/", "tokenSection")}
+              onClick={() => setOpen(false)}
               className="tw-text-[#054776] tw-font-bold"
             >
               FAQ

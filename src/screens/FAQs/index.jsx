@@ -95,7 +95,7 @@ const FAQS = () => {
      </div>
     
     <div>
-    <div className=" tw-overflow-x-hidden tw-bg-[#054776]">
+    {/* <div className=" tw-overflow-x-hidden tw-bg-[#054776]">
         <div className="container tw-py-4 ">
           <div className="row g-4 tw-items-center">
             <div className="col-md-2">
@@ -171,7 +171,7 @@ const FAQS = () => {
            
           </div>
         </div>
-      </div>
+      </div> */}
      
     </div>
     </>
