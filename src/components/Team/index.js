@@ -3,7 +3,7 @@ import React from "react";
 const Team = () => {
   return (
     <div id="taskSection" className="tw-bg-cover tw-relative tw-bg-center">
-      <div className="container  tw-pt-24">
+      <div className="container   tw-pt-6">
         <div className="row tw-g-5 ">
           {teamMembers.map((member, index) => (
             <div key={index} className="col-lg-4 tw-pt-12 col-md-6 tw-mb-5">

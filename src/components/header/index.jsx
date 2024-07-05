@@ -58,7 +58,7 @@ const Header = () => {
               onClick={() => setOpen(false)}
               className="tw-text-[#054776] tw-font-bold"
             >
-              TASKS
+              WHITE PAPER
             </Link>
           </li>
           <li>
@@ -121,7 +121,7 @@ const Header = () => {
               onClick={() => setOpen(false)}
               className="tw-text-[#054776] tw-font-bold"
             >
-              TASKS
+              WHITE PAPER
             </Link>
           </li>
           <li>

@@ -3,7 +3,7 @@ import { GoGift } from 'react-icons/go';
 
 const DonateNow = () => {
   return (
-    <div className="container tw-pt-12 tw-flex tw-flex-col sm:tw-flex-row tw-justify-between tw-items-center tw-gap-4">
+    <div className="container  tw-flex tw-flex-col sm:tw-flex-row tw-justify-between tw-items-center tw-gap-4">
       <div></div>
       <div className="tw-w-full sm:tw-w-auto">
         <div className="tw-bg-[#ECECEC] tw-flex tw-border tw-rounded-md">
