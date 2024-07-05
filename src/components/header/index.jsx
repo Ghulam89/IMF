@@ -54,7 +54,7 @@ const Header = () => {
           </li> */}
           <li>
             <Link
-              to={"/tasks"}
+              to={"/"}
               onClick={() => setOpen(false)}
               className="tw-text-[#054776] tw-font-bold"
             >
@@ -117,7 +117,7 @@ const Header = () => {
           </li> */}
           <li>
             <Link
-              to={"/tasks"}
+              to={"/"}
               onClick={() => setOpen(false)}
               className="tw-text-[#054776] tw-font-bold"
             >

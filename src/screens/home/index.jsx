@@ -13,10 +13,10 @@ const Home = () => {
     
       <DonateNow/>
       <Team/>
-      <RefLink/>
-      <RefSecond/>
-      <FAQ/>
-      <Footer/>
+      {/* <RefLink/> */}
+      {/* <RefSecond/> */}
+      {/* <FAQ/> */}
+      {/* <Footer/> */}
     </div>
   );
 };
