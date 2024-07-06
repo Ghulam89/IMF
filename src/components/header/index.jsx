@@ -114,19 +114,18 @@ const Header = () => {
           </div>
 
           <ul className="tw-p-0 tw-relative tw-px-9 tw-pt-3 tw-border-t">
-          {/* <li>
-            <Link
-              to={"/"}
-              onClick={() => handleNavigate("/", "homeSection")}
-              className="tw-text-[#054776] tw-font-bold"
-            >
-              WHITE PAPER
-            </Link>
-          </li> */}
           <li>
             <Link
               to={"/"}
               onClick={() => setOpen(false)}
+              className="tw-text-[#054776] tw-font-bold"
+            >
+              HOME
+            </Link>
+          </li>
+          <li>
+            <Link
+                   onClick={openPdfInNewTab}
               className="tw-text-[#054776] tw-font-bold"
             >
               WHITE PAPER
