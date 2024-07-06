@@ -28,6 +28,15 @@ const Header = () => {
     }, 0);
   };
 
+
+
+  const openPdfInNewTab = () => {
+    const pdfUrl = require("../../assets/images/EBM Whitepaper.pdf");
+    window.open(pdfUrl, "_blank");
+  };
+
+
+  
   return (
     <nav className=" container tw-top-0 tw-z-20   ">
       <div className="tw-flex tw-items-center tw-font-medium  tw-h-24 container tw-mx-auto tw-justify-between">
@@ -43,19 +52,18 @@ const Header = () => {
 
         </div>
         <ul className="lg:tw-flex tw-hidden tw-items-center tw-gap-8 tw-font-[Poppins]">
-        {/* <li>
-            <Link
-              to={"/"}
-              onClick={() => handleNavigate("/", "aboutSection")}
-              className="tw-text-[#054776] tw-font-bold"
-            >
-              WHITE PAPER
-            </Link>
-          </li> */}
-          <li>
+        <li>
             <Link
               to={"/"}
               onClick={() => setOpen(false)}
+              className="tw-text-[#054776] tw-font-bold"
+            >
+              HOME
+            </Link>
+          </li>
+          <li>
+            <Link
+              onClick={openPdfInNewTab}
               className="tw-text-[#054776] tw-font-bold"
             >
               WHITE PAPER
