@@ -8,7 +8,7 @@ const Team = () => {
           {teamMembers.map((member, index) => (
             <div key={index} className="col-lg-4 tw-pt-12 col-md-6 tw-mb-5">
               <div className="tw-text-center tw-relative tw-border-2 tw-border-[#003459] tw-rounded-lg tw-rounded-tr-none tw-rounded-bl-none tw-p-6">
-                <div className="   tw-h-28 tw-w-32 tw-mx-auto  tw-left-28 tw-absolute  tw--top-12">
+                <div className="   tw-h-28 tw-w-32 tw-mx-auto  tw-left-32 tw-absolute  tw--top-12">
                   <img
                     src={member.image}
                     className="tw-h-full tw-mx-auto   tw-w-full  tw-bg-center    tw-bg-white"
