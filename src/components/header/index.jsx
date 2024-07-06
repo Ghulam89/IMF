@@ -29,8 +29,8 @@ const Header = () => {
   };
 
   return (
-    <nav className=" container tw-top-0 tw-z-20">
-      <div className="tw-flex tw-items-center tw-font-medium tw-h-32 container tw-mx-auto tw-justify-between">
+    <nav className=" container tw-top-0 tw-z-20   ">
+      <div className="tw-flex tw-items-center tw-font-medium  tw-h-24 container tw-mx-auto tw-justify-between">
         <div className=" tw-flex tw-items-center tw-gap-2">
           <img
             src={require("../../assets/images/logo.png")}

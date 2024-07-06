@@ -8,14 +8,14 @@ const Team = () => {
           {teamMembers.map((member, index) => (
             <div key={index} className="col-lg-4 tw-pt-12 col-md-6 tw-mb-5">
               <div className="tw-text-center tw-relative tw-border-2 tw-border-[#003459] tw-rounded-lg tw-rounded-tr-none tw-rounded-bl-none tw-p-6">
-                <div className=" sm:tw-w-60  tw-w-52 tw-h-28 tw-mx-auto tw-absolute tw-left-24 tw--top-12">
+                <div className="   tw-h-28 tw-w-32 tw-mx-auto  tw-left-28 tw-absolute  tw--top-12">
                   <img
                     src={member.image}
-                    className="tw-w-full tw-h-full tw-mx-auto  tw-object-contain    tw-bg-white"
+                    className="tw-h-full tw-mx-auto   tw-w-full  tw-bg-center    tw-bg-white"
                     alt={member.name}
                   />
                 </div>
-                <div className="tw-pt-16">
+                <div className="tw-pt-12">
                   <h3 className="tw-text-[#003459] tw-text-2xl tw-font-poppins tw-font-semibold">
                     {member.name}
                   </h3>

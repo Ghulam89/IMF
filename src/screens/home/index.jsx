@@ -1,22 +1,18 @@
 import React from 'react';
-import Footer from '../../components/footer';
 import Team from '../../components/Team';
-import FAQ from '../../components/FAQ';
-import Header from '../../components/header';
 import DonateNow from '../../components/DonateNow';
-import RefLink from '../../components/RefLink';
-import RefSecond from '../../components/RefSecond';
+import Header from '../../components/header';
+import Footer from '../../components/footer';
+
 const Home = () => {
   return (
-    <div className=' tw-overflow-x-hidden'>
-      
-    
-      <DonateNow/>
-      <Team/>
-      {/* <RefLink/> */}
-      {/* <RefSecond/> */}
-      {/* <FAQ/> */}
-      {/* <Footer/> */}
+    <div className='min-h-screen relative flex flex-col'>
+      <Header/>
+      <main className='flex-grow px-4  tw-min-h-screen py-8 md:px-8 md:py-12'>
+        <DonateNow />
+        <Team />
+      </main>
+      <Footer className='absolute bottom-0 left-0 right-0' />
     </div>
   );
 };

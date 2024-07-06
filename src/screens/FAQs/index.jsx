@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom';
 import Accordion from '../../components/Accordion/Accordion';
+import Footer from '../../components/footer';
+import Header from '../../components/header';
 
 const FAQS = () => {
     const [accordions, setAccordion] = useState([
@@ -56,8 +58,9 @@ const FAQS = () => {
 
     <>
 
-
-<div className=" tw-bg-white   tw-bg-no-repeat tw-w-full tw-bg-cover  tw-py-24  tw-h-auto ">
+<Header/>
+<main className='flex-grow px-4  tw-min-h-screen py-8 md:px-8 md:py-12'>
+<div className=" tw-bg-white   tw-bg-no-repeat tw-w-full tw-bg-cover   tw-pb-12 tw-h-auto ">
        
        <div className=" container">
        <div className='row tw-items-center'>
@@ -174,6 +177,8 @@ const FAQS = () => {
       </div> */}
      
     </div>
+    </main>
+    <Footer/>
     </>
     
 
