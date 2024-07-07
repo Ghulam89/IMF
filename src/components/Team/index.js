@@ -22,7 +22,13 @@ const Team = () => {
                   <p className="tw-text-[#003459] m-0 tw-text-xl  tw-font-semibold">
                     {member.role}
                   </p>
-                  <p className=" m-0 tw-font-medium tw-text-[#003459]">{member?.para}</p>
+                  <p className=" m-0 tw-font-medium tw-text-[#003459]">
+                    {member.para2}
+                  </p>
+                  <p className=" m-0 tw-font-medium tw-text-[#003459]">
+                    {member.para3}
+                  </p>
+                  {/* <p className=" m-0 tw-font-medium tw-text-[#003459]">{member?.para}</p> */}
                 </div>
               </div>
             </div>
@@ -45,17 +51,17 @@ const teamMembers = [
   },
   {
     name: "Position in Queue",
-    role: "3/300",
+    role: "300",
     image: require("../../assets/images/d2.png"),
   },
   {
-    name: "provide help",
-    role: "20 times",
+    name: "Provided Help",
+    role: "20 times (150 USDT)",
     image: require("../../assets/images/d3.png"),
   },
   {
     name: "Recieved Help",
-    role: "9 times",
+    role: "9 times (300 USDT)",
     image: require("../../assets/images/d4.png"),
   },
   {
@@ -65,9 +71,11 @@ const teamMembers = [
   },
   {
     name: "Referral Code Has Been Used",
-    role: "5/30 Times",
+    role: "30 times since joining",
     image: require("../../assets/images/d5.png"),
-    para:"5 - Represents the no. times ref. code used weekly 30. represents the no. total number f times since joiner"
+    // para1:"30 times since joining",
+    para2:"5 times week!",
+    para3:"4 times left to move ahead of queue"
   },
   
 ];

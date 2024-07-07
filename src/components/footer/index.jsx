@@ -44,7 +44,7 @@ const Footer = () => {
 
               <div className=" tw-flex tw-items-center tw-gap-4">
                 <span className=" tw-text-white  tw-font-semibold tw-text-xl">Marketing Budget    </span>
-                <p className=" tw-pt-1 tw-m-0   tw-leading-4 tw-font-bold tw-text-white tw-border-white tw-border-b">ADDRESS</p>
+                <p className=" tw-pt-1 tw-m-0   tw-leading-4 tw-font-bold tw-text-white tw-border-white tw-border-b">Address</p>
               </div>
 
 
