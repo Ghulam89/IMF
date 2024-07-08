@@ -1,6 +1,6 @@
 import React from "react";
 
-const Team = () => {
+const TasksComponents = () => {
   return (
     <div id="taskSection" className="tw-bg-cover  tw-relative tw-bg-center">
       <div className="container  tw-pb-6  tw-pt-6">
@@ -52,11 +52,13 @@ const teamMembers = [
   {
     name: "Position in Queue",
     role: "300",
+    para3:"Your position has been changed due to automatic placement",
     image: require("../../assets/images/d2.png"),
   },
   {
     name: "Provided Help",
     role: "20 times (150 USDT)",
+    para3:"4 times left to qualify for automatic placement",
     image: require("../../assets/images/d3.png"),
   },
   {
@@ -67,6 +69,7 @@ const teamMembers = [
   {
     name: "Your Referral Code",
     role: "10",
+    para3:"Your referral code will be activated after you donate",
     image: require("../../assets/images/d6.png"),
   },
   {
@@ -74,10 +77,10 @@ const teamMembers = [
     role: "30 times since joining",
     image: require("../../assets/images/d5.png"),
     // para1:"30 times since joining",
-    para2:"5 times week!",
+    // para2:"5 times week!",
     para3:"4 times left to move ahead of queue"
   },
   
 ];
 
-export default Team;
+export default TasksComponents;

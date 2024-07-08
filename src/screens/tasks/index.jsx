@@ -1,23 +1,16 @@
-import React from 'react'
-import DonateNow from '../../components/DonateNow'
-import Team from '../../components/Team'
-import { Link } from 'react-router-dom'
+import React from "react";
+import DonateNow from "../../components/DonateNow";
+import TasksComponents from "../../components/TasksComponent";
 
 const Tasks = () => {
   return (
-    <div id='taskSection'>
+    <div id="taskSection">
+      <DonateNow />
+      <TasksComponents/>
 
-        <DonateNow/>
-        <Team/>
-
-
-        <div>
-     
-     
+      <div></div>
     </div>
-      
-    </div>
-  )
-}
+  );
+};
 
-export default Tasks
+export default Tasks;
