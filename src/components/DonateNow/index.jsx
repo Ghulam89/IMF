@@ -12,7 +12,7 @@ const DonateNow = () => {
             className="tw-outline-none tw-px-8 tw-w-full sm:tw-w-72 tw-bg-[#F8F8F8]"
           />
           <button className="tw-px-6 tw-text-center tw-py-3 tw-flex tw-items-center tw-justify-center tw-gap-1 tw-bg-[#054776] tw-text-white">
-            <GoGift color="white" size={20} /> Donate 
+            Donate 
           </button>
         </div>
       </div>

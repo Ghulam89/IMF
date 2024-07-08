@@ -84,7 +84,7 @@ const Header = () => {
         <div className="md:tw-block tw-hidden">
          
 
-          <button className=" tw-px-6 tw-text-center tw-rounded-lg tw-py-3    tw-flex tw-items-center tw-justify-center tw-gap-1  tw-bg-[#054776] tw-text-white"> <FaRegUser color="white" /> Connect Wallet</button>
+          <button className=" tw-px-6 tw-text-center tw-rounded-lg tw-py-3    tw-flex tw-items-center tw-justify-center tw-gap-1  tw-bg-[#054776] tw-text-white"> Connect Wallet</button>
         </div>
 
         <div
@@ -141,7 +141,7 @@ const Header = () => {
             </Link>
           </li>
             <li className=" tw-pt-5">
-            <button className=" tw-px-6 tw-text-center tw-rounded-lg tw-py-3    tw-flex tw-items-center tw-justify-center tw-gap-1  tw-bg-[#054776] tw-text-white"> <FaRegUser color="white" /> Connect Wallet</button>
+            <button className=" tw-px-6 tw-text-center tw-rounded-lg tw-py-3    tw-flex tw-items-center tw-justify-center tw-gap-1  tw-bg-[#054776] tw-text-white">  Connect Wallet</button>
 
             </li>
           </ul>
