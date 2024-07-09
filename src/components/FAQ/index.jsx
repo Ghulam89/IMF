@@ -55,7 +55,7 @@ const FAQ = () => {
        
       <div className=" container">
       <div className='row tw-items-center'>
-        <div className='col-lg-6 col-md-12'>
+        <div className='col-lg-12 col-md-12'>
         <h5 className=" tw-font-semibold  tw-flex tw-items-end tw-gap-2 tw-text-2xl sm:tw-text-start tw-text-center  tw-text-[#003459]">  <p className='  tw-w-14  tw-h-[2px] tw-bg-[#003459]'></p> FAQS</h5>
 
         <h1 className="  tw-font-semibold tw-text-4xl sm:tw-text-start tw-text-center  tw-text-[#003459]">Frenquently Questions</h1>
@@ -71,7 +71,7 @@ const FAQ = () => {
           ))}
         </div>
         </div>
-        <div className="col-lg-6 col-md-12  tw-relative">
+        {/* <div className="col-lg-6 col-md-12  tw-relative">
            
                <div className='row'>
                 <div className='col-md-10 tw-mx-auto'>
@@ -83,7 +83,7 @@ const FAQ = () => {
                </div>
              
            
-          </div>
+          </div> */}
       </div>
       </div>
     </div>

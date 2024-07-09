@@ -58,7 +58,7 @@ const teamMembers = [
   {
     name: "Provided Help",
     role: "20 times (150 USDT)",
-    para3:"4 times left to qualify for automatic placement",
+    para3:"4 donations left to move ahead of queue",
     image: require("../../assets/images/d3.png"),
   },
   {
@@ -78,7 +78,7 @@ const teamMembers = [
     image: require("../../assets/images/d5.png"),
     // para1:"30 times since joining",
     // para2:"5 times week!",
-    para3:"4 times left to move ahead of queue"
+    para3:"5 referrals left to move ahead of queue"
   },
   
 ];

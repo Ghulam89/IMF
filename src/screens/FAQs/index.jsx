@@ -77,7 +77,7 @@ const FAQS = () => {
                   ))}
                 </div>
               </div>
-              <div className="col-lg-6 col-md-12  tw-relative">
+              {/* <div className="col-lg-6 col-md-12  tw-relative">
                 <div className="row">
                   <div className="col-md-10 tw-mx-auto">
                     <img
@@ -86,7 +86,7 @@ const FAQS = () => {
                     />
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
